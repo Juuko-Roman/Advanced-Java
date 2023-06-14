@@ -6,6 +6,7 @@ class Demo implements Serializable{
 	private static final long serialversionUID = 129348938L;
 	public int a;
 	public String b;
+	public static transient int count=8; // this will not be serialized
 
 	// Default constructor
 	public Demo(int a, String b){

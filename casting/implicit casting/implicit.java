@@ -1,6 +1,6 @@
 class A{
 	int a;
-	public void m(A obj){//implicit casting occurs here where subclass object is casted to supertype reference
+	public void m(A obj){//implicit casting occurs here where the passed subclass object is casted to supertype reference
 		System.out.println(obj.a);
 	}
 }

@@ -1,5 +1,4 @@
-// Java program to demonstrate working of Externalization
-// interface
+// Java program to demonstrate working of Externalization interface
 import java.io.*;
 class Car implements Externalizable {
 	static int age;
